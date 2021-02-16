@@ -116,7 +116,8 @@ public class Music extends RESTService {
     // resp
     boolean resp_condition = true;
     if(resp_condition) {
-      JSONObject res = new JSONObject();
+      JSONObject res = new JSONObject(); 
+      res.put("Test", "hi");
 
       
 
